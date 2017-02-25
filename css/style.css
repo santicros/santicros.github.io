@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -926,7 +926,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 480px) {
   .fh5co-copyright {
-    text-align: left !important;
+    text-align: center !important;
   }
   .fh5co-copyright span {
     display: inline;
