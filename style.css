@@ -20,8 +20,16 @@ body, html {
 }
 
 .main .container {
-    max-width: 450px;
+    max-width: 90%;
 }
+
+@media (min-width: 500px) {
+    .main .container {
+        max-width: 450px;
+    }
+}
+
+
 
 .main h1 {
     margin: 0;
