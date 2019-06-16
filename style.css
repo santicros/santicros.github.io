@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container {
+    max-width: 450px;
+}
+
+.main h1 {
+    margin: 0;
+}
+
+.main h2 {
+    font-size: 1.1em;
+}
+
+p {
+    padding-bottom: 1.2em;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0.7em 1.5em;
+    border-radius: 1.8em;
+    transition: all 0.25s ease-in-out;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+}
