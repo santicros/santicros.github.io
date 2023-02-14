@@ -3,5 +3,6 @@
 
 ## Accessibility
 - [Learn Accessibility](https://web.dev/learn/accessibility/) by Web.dev.
+- [Accessible Patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) by W3C Aria.
 
 ## Data Viz
