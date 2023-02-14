@@ -5,5 +5,6 @@
 - [Learn Accessibility](https://web.dev/learn/accessibility/) by Web.dev.
 - [Accessible Patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) by W3C Aria.
 - [Disabled buttons suck](https://axesslab.com/disabled-buttons-suck/) by Hampus Sethfors at Axess Lab.
+- [GOV.UK Design System: Patterns, Components & more](https://design-system.service.gov.uk/get-started/) by GOV.UK.
 
 ## Data Viz
