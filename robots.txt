@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /old
+Disallow: /old2
+
+Sitemap: https://santicros.com/sitemap.xml
