@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+---
+
+
+<style>
+    body {
+        max-width: 800px;
+    }
+
+    @media screen {
+        body {
+            margin: 0 auto;
+            padding: max(1rem, 5vw);
+        }
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+        padding: 0;
+    }
+
+    @media print {
+        header nav {
+            display: none;
+        }
+    }
+</style>
+
+<!-- <header>
+    <nav>
+        <ul>
+            <li>
+                <a class="no-visited-state" href="/">Home</a>
+            </li>
+            <li>
+                <a class="no-visited-state" href="/about">About</a>
+            </li>
+            <li>
+                <a class="no-visited-state" href="/cv">CV</a>
+            </li>
+        </ul>
+    </nav>
+</header> -->
+
+<main>
+    {{ content | safe }}
+</main>

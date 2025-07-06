@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Santi Cros | Front-end developer focused on Accessibility and Performance
+    </title>
+    <meta name="description"
+        content="Hi! I'm a front-end developer from Barcelona enthusiast about Accessibility, Inclusive Design and Performance." />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+</head>
+
+<body>
+    <style>
+        /* RESET */
+        /* Box sizing rules */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        /* Prevent font size inflation */
+        html {
+            -moz-text-size-adjust: none;
+            -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+        }
+
+        /* Remove default margin in favour of better control in authored CSS */
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        figure,
+        blockquote,
+        dl,
+        dd {
+            margin-block-end: 0;
+        }
+
+        /* Set core body defaults */
+        body {
+            line-height: 1.5;
+        }
+
+        /* Set shorter line heights on headings and interactive elements */
+        h1,
+        h2,
+        h3,
+        h4,
+        button,
+        input,
+        label {
+            line-height: 1.1;
+        }
+
+        /* Balance text wrapping on headings */
+        h1,
+        h2,
+        h3,
+        h4 {
+            text-wrap: balance;
+        }
+
+        /* Make images easier to work with */
+        img,
+        picture {
+            max-width: 100%;
+            display: block;
+        }
+
+        html {
+            min-height: 100%;
+            color: rgb(33, 2, 79);
+        }
+
+
+        /* CUSTOM STYLES */
+        body {
+            font-family: sans-serif;
+        }
+
+
+
+        /* Config */
+
+        :root {
+            --c-focus: #fd0;
+            --c-focus-text: #0b0c0c;
+
+            --c-link: rgb(123, 41, 255);
+            --c-link-visited: rgb(75, 8, 183);
+            --c-link-hover: rgb(84, 20, 188);
+            --c-link-active: var(--c-focus-text);
+
+            --heading-xl: 2rem;
+
+            --heading-l: 1.5rem;
+
+            --heading-m: 1.3rem;
+            --body-l: 1.3rem;
+
+            --heading-s: 1.19rem;
+            --body: 1.19rem;
+
+            --body-s: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            :root {
+                --heading-xl: 2.8rem;
+
+                --heading-l: 1.8rem;
+
+                --heading-m: 1.5rem;
+                --body-l: 1.5rem;
+
+                --heading-s: 1.19rem;
+                --body: 1.19rem;
+
+                --body-s: 16px;
+            }
+        }
+
+        h1 {
+            font-size: var(--heading-xl);
+        }
+
+        h2 {
+            font-size: var(--heading-l);
+        }
+
+        h3 {
+            font-size: var(--heading-s);
+        }
+
+        p,
+        ul {
+            font-size: var(--body);
+        }
+
+        /* Link normal, hover & focus styles  */
+        a {
+            color: var(--c-link);
+            text-decoration-thickness: max(1px, 0.0625rem);
+            text-underline-offset: 0.1578em;
+        }
+
+        @media screen {
+            a:hover {
+                color: var(--c-link-hover);
+                text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+                text-decoration-skip-ink: none;
+                text-decoration-skip: none;
+            }
+
+            a:not(.no-visited-state):visited {
+                color: var(--c-link-visited);
+            }
+
+            a:active {
+                color: var(--c-link-active);
+            }
+
+            a:focus {
+                text-decoration: none;
+
+                color: var(--c-focus-text);
+                outline: 3px solid transparent;
+                background-color: var(--c-focus);
+                box-shadow: 0 -2px var(--c-focus), 0 4px var(--c-focus-text);
+            }
+        }
+    </style>
+
+
+    {{ content | safe }}
+</body>
+
+</html>
