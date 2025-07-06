@@ -2,6 +2,11 @@
 layout: layouts/default.njk
 ---
 
+<style>
+    .list-padding li:not(:first-child) {
+        margin-top: 0.7em;
+    }
+</style>
 
 <div class="h-resume flow prose">
     <h1 class="p-name">
@@ -56,43 +61,24 @@ layout: layouts/default.njk
     <section>
         <h2 id="professional">Professional experience</h2>
 
-        <ul>
+        <ul class="list-padding">
             <li class="p-experience h-event">
-                <strong>Front-end Developer</strong> for
+                <strong>Front-End Developer</strong> for
                 <a class="p-location h-card" href="https://www.domesticstreamers.com/">Domestic Data Streamers</a>
                 <address>Barcelona, Spain.</address>
-                <span> February 2020 to Present. </span>
+                <span>February 2020 to Present.</span>
                 <ul class="p-summary">
-                    <li>
-                        Migrated
-                        <a href="https://www.zachleat.com/web/eleventy-vue-netlify/">netlify.com to Eleventy and
-                            Vue</a>, improving developer velocity, non-technical contributor workflow,
-                        and site performance.
-                    </li>
-                    <li>
-                        Shipped new Eleventy-based marketing sites (on a dev team of two)
-                        under very tight deadlines:
-                        <a href="https://jamstack.org/">jamstack.org</a>,
-                        <a href="https://jamstack.org/conf/">Jamstack Conf</a>
-                        <span>(×3)</span>,
-                        <a href="https://headlesscommercesummit.com/">Headless Commerce Summit</a>,
-                        <a href="https://jamstack.org/survey/2022/">Jamstack Community Survey</a>,
-                        <a href="https://your-year-on.netlify.com/">Your Year on Netlify</a>. Helped on the
-                        <a href="https://million-devs.netlify.com/">Million Devs</a> project
-                        (Vue).
-                    </li>
-                    <li>
-                        Developed
-                        <a href="https://www.11ty.dev/docs/plugins/serverless/">serverless adapter</a>
-                        to support
-                        <a href="https://www.zachleat.com/twitter/1405650895665254406">live previews in Sanity CMS</a>.
-                    </li>
-                    <li>
-                        <em>Learn more from
-                            <a href="https://www.zachleat.com/twitter/1486739892667400193">2022</a>
-                            or
-                            <a href="https://www.zachleat.com/twitter/1354812100791554052">2021</a>.</em>
-                    </li>
+                    <li>Developing accessible and performant digital services for clients like UNICEF, WFP, OXFAM,
+                        Generalitat de Catalunya and Ajuntament de Barcelona.</li>
+                </ul>
+            </li>
+
+            <li class="p-experience h-event">
+                <strong>Independent Designer & Front-end Developer</strong>
+                <address>Barcelona, Spain.</address>
+                <span>June 2019 to Present.</span>
+                <ul class="p-summary">
+                    <li>Collaborating with various clients on the creation of websites and digital platforms..</li>
                 </ul>
             </li>
         </ul>
@@ -110,24 +96,12 @@ layout: layouts/default.njk
 
                 <ul class="resume-desc">
                     <li>
-                        <abbr title="Bachelor of Science">BS</abbr> in Computer Engineering,
-                        Minor in Mathematics
+                        Learned Web Development, Graphic Design, UX/UI Design, Interaction Design.
                     </li>
-
-                    <li>
-                        Course Work in Semantic Web, Computer Architecture, Data Structures
-                        and Algorithms, Database Systems, Artificial Intelligence,
-                        Cryptography and Security, GUI and Unix Programming, Operating
-                        Systems and Kernels
-                    </li>
-                    <li>
-                        Engineering Study Abroad program in
-                        <address class="h-adr">
-                            <span class="p-locality">Fortaleza</span>,
-                            <abbr class="p-region" title="Ceará">CE</abbr>,
-                            <span class="p-country-name">Brazil</span>
-                        </address>
-                    </li>
+                    <li>Final thesis project: Respectful design in the
+                        attention economy. <a href="https://www.feelthejomo.com/">JOMO</a>, a browser extension to
+                        enable
+                        users reclaim their attention.</li>
                 </ul>
             </li>
         </ul>
