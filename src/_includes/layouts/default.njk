@@ -5,13 +5,13 @@ layout: layouts/base.njk
 
 <style>
     body {
-        max-width: 800px;
+        max-width: 650px;
     }
 
     @media screen {
         body {
             margin: 0 auto;
-            padding: max(1rem, 5vw);
+            padding: max(1rem, 5vw) 2rem;
         }
     }
 
@@ -29,7 +29,7 @@ layout: layouts/base.njk
     }
 </style>
 
-<!-- <header>
+<header>
     <nav>
         <ul>
             <li>
@@ -43,7 +43,7 @@ layout: layouts/base.njk
             </li>
         </ul>
     </nav>
-</header> -->
+</header>
 
 <main>
     {{ content | safe }}
