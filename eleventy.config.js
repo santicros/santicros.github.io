@@ -6,7 +6,7 @@ export const config = {
   dir: {
     input: 'src',
   },
-  templateFormats: ['html', 'njk'],
+  templateFormats: ['html', 'njk', 'md'],
   markdownTemplateEngine: 'njk',
   htmlTemplateEngine: 'njk',
 }
