@@ -13,6 +13,7 @@ layout: layouts/default.njk
 
 ## Design
 
+- [Government Design Principles](https://www.gov.uk/guidance/government-design-principles) by GOV.UK.
 - [Structuring forms](https://www.gov.uk/service-manual/design/form-structure) by GOV.UK Service Manual.
 - [Writing for user interfaces](https://www.gov.uk/service-manual/design/writing-for-user-interfaces) by GOV.UK Service Manual.
 - [Designing good questions](https://www.gov.uk/service-manual/design/designing-good-questions) by GOV.UK Service Manual.
