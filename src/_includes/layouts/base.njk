@@ -188,6 +188,19 @@
                 box-shadow: 0 -2px var(--c-focus), 0 4px var(--c-focus-text);
             }
         }
+
+
+        .flow>*+* {
+            margin-block-start: var(--flow-space, 1.5em);
+        }
+
+        .flow :is(h1 + *) {
+            --flow-space: 1em;
+        }
+
+        .flow :is(h2 + *, h3 + *, h4 + *) {
+            --flow-space: 0.6em;
+        }
     </style>
 
     {{ content | safe }}

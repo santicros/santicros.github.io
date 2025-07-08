@@ -7,7 +7,7 @@ layout: layouts/default.njk
        margin-top: 0.5rem;
     }
 </style>
-<div class="cv">
+<div class="cv flow">
 
 # Links
 
