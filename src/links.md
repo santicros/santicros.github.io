@@ -31,7 +31,8 @@ layout: layouts/default.njk
 - [Performance Inequality Gap](https://infrequently.org/series/performance-inequality/) by Alex Russell.
 - [Building a robust frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) by GOV.UK Service Manual.
 - [How to optimise frontend performance](https://gds-way.digital.cabinet-office.gov.uk/standards/optimise-frontend-perf.html#how-to-optimise-frontend-performance) by GOV.UK GDS.
-- [Avoid large, complex layouts and layout thrashing](https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing) by web.dev.
+- [Rendering performance](https://web.dev/articles/rendering-performance) on web.dev.
+- [Avoid large, complex layouts and layout thrashing](https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing) on web.dev.
 - [What forces layout / reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a) by Paul Irish.
 
 ## Blogs to follow (in alphabetical order)
